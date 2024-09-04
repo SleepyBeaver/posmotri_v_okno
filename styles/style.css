@@ -58,6 +58,7 @@ fieldset {
 }
 
 .content__list {
+  padding-top: 4px;
   height: 298px;
   overflow: auto;
   position: relative;
@@ -68,7 +69,7 @@ fieldset {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 15px;
 }
 
 .result__video-container {
@@ -102,7 +103,6 @@ fieldset {
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
-  padding-bottom: 5px;
 }
 
 .title {
@@ -135,7 +135,7 @@ fieldset {
 
 .content__card-link:focus-visible {
   outline: 1px white solid;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 .content__card-link:hover {
@@ -148,7 +148,7 @@ fieldset {
 }
 
 .content__video-card-title {
-  height: 37px;
+  line-height: 1.4;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -160,7 +160,7 @@ fieldset {
 }
 
 .content__video-card-description {
-  height: 65px;
+  line-height: 0.9;
   font-weight: 400;
   font-size: 18px;
 }
